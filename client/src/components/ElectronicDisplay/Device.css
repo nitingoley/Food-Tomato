@@ -1,0 +1,52 @@
+/* .device-display-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; 
+    border-radius: 600px;
+    cursor: pointer;
+ 
+  }
+  
+  .device-item {
+    /* width: 200px; /* Set a fixed width for each item */
+    /* margin: 10px; /* Space around the item */
+/*   
+  .device-item img {
+    width: 100%; 
+    height: auto;  
+    object-fit: contain;  
+     padding-top: 10px;
+     border-radius: 20px;
+  } */
+
+  
+  /* .rating {
+    font-size: 14px; 
+    color: #f39c12; 
+    display: flex;
+    align-items: center;
+  } */
+   /* */ 
+
+
+   .device-display {
+    margin-top: 30px;
+   }
+   .device-display h2 {
+    font-size: max(2vw , 24px);
+   }
+
+   .device-display-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(240px , 1fr));
+    margin-top: 30px;
+    gap: 30px;
+    row-gap: 50px;
+   }
+
+   device-item {
+     width: 200px;  
+     margin: 10px;
+   }
+
+

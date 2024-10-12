@@ -1,0 +1,60 @@
+.explore-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.explore-menu h1 {
+    color: #262626;
+    font-weight: 600
+}
+.explore-menu-text {
+    color: #262626;
+  max-width: 60%;
+}
+
+.explore-menu-list {
+    display: flex;
+    justify-content: flex-start; /* Left-align items to help with scrolling */
+    align-items: center;
+    gap: 30px;
+    margin: 20px 0px;
+    overflow-x: auto; /* Use auto for better handling */
+    white-space: nowrap; /* Prevent items from wrapping */
+  }
+  
+  .explore-menu-list::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .explore-menu-list img {
+    /* width: 150px; */
+    min-width: 80px;
+    width: 7.5vw;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: 0.2ms;
+  }
+  
+
+  .explore-menu-list hr{ 
+     margin: 10px 0px;
+     height: 2px;
+     background-color: #e2e2e2;
+      border: none;
+
+  }
+
+
+  .explore-menu-list .active {
+  border: 2px solid rgb(54, 52, 52);
+  padding: 2px;
+  }
+
+
+  @media (max-width:1050px) {
+    .explore-menu-text{
+        max-width: 100%;
+        font-size: 14px;
+    }
+  }
